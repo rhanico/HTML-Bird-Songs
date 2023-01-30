@@ -2,11 +2,12 @@ html,
 body {
     margin: 0;
     padding: 0;
+
 }
 
 nav {
     width: 100%;
-    background: linear-gradient(to bottom right, beige, skyblue);
+    background: linear-gradient(to bottom right,#356935 , yellow);
     text-align: center;
 }
 
@@ -27,17 +28,27 @@ nav a {
 }
 
 nav a:visited {
-    color: blue;
+    color: whitesmoke;
 }
 
 nav a:hover {
-    color: hotpink;
+    color: black;
 }
 
 .current-page {
-    background-color: white;
+    background-color: brown;
 }
 
 main {
     margin: 0 10%;
 }
+
+.Birds{
+    height: 500px;
+    width: 1000px;
+}
+.crow{
+    height: auto;
+width: 350px;
+}
+
